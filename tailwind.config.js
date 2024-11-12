@@ -9,7 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'red-hat': 'Red Hat Text',
+      }
+    },
   },
   plugins: [],
 }

@@ -4,4 +4,5 @@ export const useCartStore = defineStore('cart', () => {
    function incrementCount() {
       count.value++
    }
+   return { count, incrementCount }
 })
