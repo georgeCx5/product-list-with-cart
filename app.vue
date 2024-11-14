@@ -71,11 +71,11 @@ const getActiveProducts = computed(() => {
         </article>
       </div>
     </section>
-    <aside v-show="getTotal.totalCount > 0"
-      class=" fixed right-40 flex flex-col gap-6 min-w-[25%] h-fit bg-white p-8 rounded-3xl overflow-hidden">
+    <aside class=" fixed right-40 flex flex-col gap-6 min-w-[25%] h-fit bg-white p-8 rounded-3xl overflow-hidden">
       <h2 class=" text-red-600 text-3xl font-bold">
-        Tu Carrito ({{ getTotal.totalCount }})</h2>
-      <div>
+        Tu Carrito
+        {{ getTotal.totalCount > 0 ? `(${getTotal.totalCount})` : `` }}</h2>
+      <div v-show="getTotal.totalCount > 0">
         <div v-for="product in getActiveProducts" class=" flex flex-col">
           <div class=" flex justify-between items-center py-3">
             <div class=" flex flex-col gap-[.375rem]">
@@ -100,7 +100,7 @@ const getActiveProducts = computed(() => {
           <div class=" w-full h-px bg-zinc-300" />
         </div>
       </div>
-      <div class=" flex flex-col gap-8">
+      <div v-if="getTotal.totalCount > 0" class=" flex flex-col gap-8">
         <div class=" flex justify-between items-center">
           <h3 class=" text-zinc-700 text-lg font-semibold">
             Orden Total</h3>
@@ -110,6 +110,11 @@ const getActiveProducts = computed(() => {
         <button
           class=" bg-red-600 hover:bg-red-400 py-5 text-red-50 text-xl font-semibold rounded-full transition-all duration-100">
           Confirmar Orden</button>
+      </div>
+      <div v-else class=" flex items-center gap-2 pt-4 text-zinc-700">
+        <h4 class=" text-lg font-semibold">
+          Tu carrito está vacío.</h4>
+        <Icon name="tabler:mood-sad" class=" text-2xl" />
       </div>
     </aside>
   </div>

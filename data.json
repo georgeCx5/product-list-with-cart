@@ -1,62 +1,62 @@
 [
     {
-        "image": "_nuxt/assets/images/image-waffle-desktop.jpg",
+        "image": "/images/image-waffle-desktop.jpg",
         "name": "Waffle con Frutas",
         "category": "Waffle",
         "price": 6.50,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-creme-brulee-desktop.jpg",
+        "image": "/images/image-creme-brulee-desktop.jpg",
         "name": "Crème Brûlée de Vainilla",
         "category": "Crème Brûlée",
         "price": 7.00,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-macaron-desktop.jpg",
+        "image": "/images/image-macaron-desktop.jpg",
         "name": "Mix de Cinco Macarons",
         "category": "Macaron",
         "price": 8.00,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-tiramisu-desktop.jpg",
+        "image": "/images/image-tiramisu-desktop.jpg",
         "name": "Tiramisú Clásico",
         "category": "Tiramisú",
         "price": 5.50,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-baklava-desktop.jpg",
+        "image": "/images/image-baklava-desktop.jpg",
         "name": "Baklava de Pistacho",
         "category": "Baklava",
         "price": 4.00,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-meringue-desktop.jpg",
+        "image": "/images/image-meringue-desktop.jpg",
         "name": "Pie de Limón con Merengue",
         "category": "Pie",
         "price": 5.00,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-cake-desktop.jpg",
+        "image": "/images/image-cake-desktop.jpg",
         "name": "Torta Red Velvet",
         "category": "Torta",
         "price": 4.50,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-brownie-desktop.jpg",
+        "image": "/images/image-brownie-desktop.jpg",
         "name": "Brownie de Caramelo Salado",
         "category": "Brownie",
         "price": 4.50,
         "quantity": 0
     },
     {
-        "image": "_nuxt/assets/images/image-panna-cotta-desktop.jpg",
+        "image": "/images/image-panna-cotta-desktop.jpg",
         "name": "Panna Cotta de Vainilla",
         "category": "Panna Cotta",
         "price": 6.50,
